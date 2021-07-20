@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "iawriter-mono";
+  src: url("/iAWriterMonoS-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "iawriter-mono";
+  font-weight: bold;
+  src: url("/iAWriterMonoS-Bold.woff2") format("woff2");
+}
+
+html,
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+  background: #fff;
+}
+
+.light {
+  --color-background: #fff;
+  --color-text: #3F3C36;
+  --color-text-reverse: #EEEEEE;
+  --color-border: #E3E3E2;
+  --color-error: crimson;
+  --color-accent: darkslateblue;
+}
+
+.dark {
+  --color-background: #353C3F;
+  --color-text: #EEEEEE;
+  --color-text-reverse: #3F3C36;
+  --color-border: #575C5D;
+  --color-error: salmon;
+  --color-accent: aquamarine;
+}
+
+.mono {
+   font-family: iawriter-mono, Nitti, Menlo, Courier, monospace;
+ }
+
+.serif {
+  font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", "SimSun", "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

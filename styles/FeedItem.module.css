@@ -1,0 +1,24 @@
+.feedItem time {
+    font-size: 12px
+}
+
+.feedItem a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.feedItem:hover {
+    background: var(--color-border);
+    border-color: var(--color-text)
+}
+
+.feedItem {
+    position: relative;
+    border: 2px solid var(--color-border);
+    border-radius: 5px;
+    padding: 10px;
+    transition: all .1s ease;
+}
